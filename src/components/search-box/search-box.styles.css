@@ -1,9 +1,11 @@
 .search-box {
-    /* -webkit-appearance: none; */
-    border: none;
-    outline: none;
-    padding: 10px;
-    width: 150px;
-    line-height: 30px;
-    margin-bottom: 30px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+  line-height: 20px;
+  margin-bottom: 40px;
+  font-family: "Bigelow Rules";
+  font-size: 22px;
+  font-weight: 900;
 }

@@ -2,6 +2,8 @@ import { Component } from "react";
 import "./App.css";
 import CardList from "./components/card-list/card-list.component.js";
 import SearchBox from "./components/search-box/search-box.component.js";
+// import data from "./external/monsters.js";
+import data from "./external/monsters.json";
 
 class App extends Component {
   constructor() {
@@ -13,16 +15,26 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // In case it doesn't work I'll put the json in a separate file in the project.
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => {
-        return response.json();
-      })
-      .then((users) =>
-        this.setState(() => {
-          return { monsters: users };
-        })
-      );
+    /* monsters.js
+    this.setState(() => {
+      return { monsters: data };
+    });
+    */
+
+    // monsters.json - ?Says "Compiled with problems", but it takes json correctly from the file.
+    this.setState(() => {
+      return { monsters: data.map((user) => user) };
+    });
+
+    // fetch("https://jsonplaceholder.typicode.com/users")
+    //   .then((response) => {
+    //     return response.json();
+    //   })
+    //   .then((users) =>
+    //     this.setState(() => {
+    //       return { monsters: users };
+    //     })
+    //   );
   }
 
   onSearchChange = (event) => {
@@ -43,6 +55,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1 className="app-title">Metin2 Dex</h1>
         <SearchBox
           onChangeHandler={onSearchChange}
           placeholder={"Search monster"}

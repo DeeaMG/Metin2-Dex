@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Leanne Graham",
+    "name": "Dragon Sword",
     "username": "Bret",
     "email": "Sincere@april.biz",
     "address": {
@@ -24,7 +24,7 @@
   },
   {
     "id": 2,
-    "name": "Ervin Howell",
+    "name": "Eagle Sword",
     "username": "Antonette",
     "email": "Shanna@melissa.tv",
     "address": {
@@ -47,7 +47,7 @@
   },
   {
     "id": 3,
-    "name": "Clementine Bauch",
+    "name": "Katana Sword",
     "username": "Samantha",
     "email": "Nathan@yesenia.net",
     "address": {
@@ -70,7 +70,7 @@
   },
   {
     "id": 4,
-    "name": "Patricia Lebsack",
+    "name": "Dragon Sword",
     "username": "Karianne",
     "email": "Julianne.OConner@kory.org",
     "address": {
