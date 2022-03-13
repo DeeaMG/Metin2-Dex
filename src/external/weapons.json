@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Dragon Sword",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet pharetra justo."
+  },
+  {
+    "id": 2,
+    "name": "Clementin Sword",
+    "description": "Fusce eleifend in enim vel mattis. Aenean vitae diam vitae velit pulvinar bibendum. Mauris aliquet justo eget porta venenatis."
+  },
+  {
+    "id": 3,
+    "name": "Katana Sword",
+    "description": "Maecenas at risus molestie, porttitor purus at, venenatis nunc. Vestibulum ac hendrerit urna."
+  },
+  {
+    "id": 4,
+    "name": "Kary Sword",
+    "description": "Morbi egestas vestibulum mi, sit amet efficitur leo consequat volutpat. Aenean varius efficitur diam, quis ultricies nisl imperdiet vel."
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Sword",
+    "description": "Nam a nunc velit. Aliquam interdum vel nulla quis sagittis. Donec fermentum aliquam nunc non mollis. Fusce scelerisque luctus felis ac euismod. "
+  },
+  {
+    "id": 6,
+    "name": "Dennis Sword",
+    "description": "Ut id imperdiet metus. Duis laoreet a nisi eu pellentesque. Sed feugiat eget felis ac tempor. Phasellus quis ultricies massa. "
+  },
+  {
+    "id": 7,
+    "name": "Weissnat Sword",
+    "description": "In blandit lorem eget mi finibus, sed tincidunt ligula feugiat. Ut finibus lacinia augue."
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Sword",
+    "description": "Proin sagittis enim non maximus dignissim. Nulla sapien eros, scelerisque vel diam viverra, bibendum euismod augue."
+  },
+  {
+    "id": 9,
+    "name": "Glenna Sword",
+    "description": "Curabitur fermentum libero varius, porttitor ligula at, bibendum nisl. Mauris lacus risus, convallis nec tortor quis, cursus facilisis eros."
+  },
+  {
+    "id": 10,
+    "name": "Clementina Sword",
+    "description": "Curabitur fermentum libero varius, porttitor ligula at, bibendum nisl. Mauris lacus risus, convallis nec tortor quis, cursus facilisis eros."
+  }
+]

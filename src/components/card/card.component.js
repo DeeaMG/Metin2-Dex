@@ -14,7 +14,7 @@ const images = importAll(
 
 class Card extends Component {
   render() {
-    const { id, name, email } = this.props.monster;
+    const { id, name, description } = this.props.monster;
     return (
       <div className="card-container" key={id}>
         <div className="flip-card-inner">
@@ -23,7 +23,7 @@ class Card extends Component {
           </div>
           <div className="flip-card-back">
             <h1>{name}</h1>
-            <p>{email}</p>
+            <p>{description}</p>
           </div>
         </div>
       </div>

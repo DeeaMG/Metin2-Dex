@@ -5,7 +5,7 @@ body {
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-ocx-smoothing: grayscale;
-  background: linear-gradient(to left, #c71111 0%, #470000 100%);
+  background: linear-gradient(to left, #940101 0%, #470000 100%);
   text-align: center;
 }
 
@@ -13,6 +13,6 @@ body {
   margin-top: 75px;
   margin-bottom: 50px;
   font-size: 76px;
-  color: #3f0808;
+  color: #310000;
   font-family: "Bigelow Rules";
 }

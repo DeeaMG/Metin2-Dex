@@ -3,7 +3,7 @@ import "./App.css";
 import CardList from "./components/card-list/card-list.component.js";
 import SearchBox from "./components/search-box/search-box.component.js";
 // import data from "./external/monsters.js";
-import data from "./external/monsters.json";
+import data from "./external/weapons.json";
 
 class App extends Component {
   constructor() {
