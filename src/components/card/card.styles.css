@@ -1,43 +1,43 @@
-.card-container {
+/* .card-container {
   cursor: pointer;
   width: 300px;
   height: 200px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
+  perspective: 1000px; Remove this if you don't want the 3D effect 
+} */
 
 /* This container is needed to position the front and back side */
-.flip-card-inner {
+/* .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-}
+} */
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.card-container:hover .flip-card-inner {
+/* .card-container:hover .flip-card-inner {
   transform: rotateY(180deg);
-}
+} */
 
 /* Position the front and back side */
-.flip-card-front,
+/* .flip-card-front,
 .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;  Safari 
   backface-visibility: hidden;
-}
+} */
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  /* background-color: #90cfec; */
-  /* border: 1px solid rgba(7, 27, 82, 1); */
-}
+/* .flip-card-front {
+  background-color: #90cfec;
+  border: 1px solid rgba(7, 27, 82, 1);
+} */
 
 /* Style the back side */
-.flip-card-back {
+/* .flip-card-back {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,10 +46,29 @@
   border: 1px solid black;
   border-radius: 5px;
   color: rgb(255, 218, 218);
-}
+} */
 
-img {
+/* img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+} */
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #470000;
+  border: 1px solid black;
+  color: rgb(255, 218, 218);
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
 }
